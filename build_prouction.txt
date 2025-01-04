@@ -1,0 +1,18 @@
+A buildeléshez a Parcel-t használjuk, amit installálni kell, de kell hozzá a node is!
+
+Parcel (Node needed)
+
+Run in terminal (or cmd) windows:
+	npm init -y
+	npm i -D parcel-bundler
+	.gitignore: add node_modules/
+	npm i -g parcel-bundler
+	parcel index.html
+-- git ignore files created by parcel
+	.gitignore: add dist/
+	.gitignore: add .cache/
+
+Build for production: 
+	parcel build index.html   (hibara fut, de a --no-minify kapcsolóval lefut)
+
+-- a /dist könyvtárban lesz a "lefordított" alkalmazás 
